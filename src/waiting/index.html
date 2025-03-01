@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You - WTF Dinner</title>
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="/index.css"> <!-- Changed to absolute path -->
 </head>
-<body>
-    <div class="min-h-screen bg-base-200 flex items-center justify-center">
-        <div class="card w-96 bg-base-100 shadow-xl">
+<body class="min-h-screen bg-base-200">
+    <main class="container mx-auto flex items-center justify-center min-h-screen p-4">
+        <div class="card w-96 bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-200">
             <div class="card-body items-center text-center">
-                <h1 class="card-title text-2xl mb-4">Thank You!</h1>
-                <p class="mb-4">Your food request has been submitted successfully. You will be notified when someone accepts.</p>
+                <h1 class="card-title text-2xl mb-4 text-primary">Thank You!</h1>
+                <p class="mb-4 text-base-content">Your food request has been submitted successfully. You will be notified when someone accepts.</p>
+                <div class="card-actions justify-end">
+                    <a href="/" class="btn btn-primary">Return Home</a>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
 </body>
 </html>
