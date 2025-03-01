@@ -18,7 +18,8 @@ export default defineConfig({
                 resources: resolve(root, 'resources', 'index.html'),
                 stats: resolve(root, 'stats', 'index.html'),
                 receivers: resolve(root, 'receivers', 'index.html'), // Fixed typo from 'recievers'
-                request: resolve(root, 'request', 'index.html')
+                request: resolve(root, 'request', 'index.html'),
+                waiting: resolve(root, 'waiting', 'index.html')
             },
         }
     }
