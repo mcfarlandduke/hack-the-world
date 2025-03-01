@@ -1,25 +1,108 @@
 {
     "Locations": [
         {
-            "Name": "Church1",
-            "Address": "asdfjaksdjfasdkfj",
+            "Name": "Hands and Feet Food Pantry - Crossroads of Life",
+            "Address": "6775 Siwell Road Jackson, MS - 39272",
+            "Website": "https://www.crossroadsbyram.com/",
+            "Phone": "601-373-6230",
             "Hours": {
-                "Monday": "9-5",
-                "Tuesday": "9-5",
-                "Wednesday": "9-5",
-                "Thursday": "9-5",
-                "Friday": "9-5"
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": null,
+                "Saturday": "8:30am-2:30pm",
+                "Sunday": null
             }
         },
         {
-            "Name": "Church2",
-            "Address": "asdkjfaksdjfkajjkjkj",
+            "Name": "Stewpot Community Services",
+            "Address": "1100 W Capitol St Jackson, MS - 39203",
+            "Website": "https://www.stewpot.org/",
+            "Phone": "601-353-2759",
             "Hours": {
-                "Monday": "9-5",
-                "Tuesday": "9-5",
-                "Wednesday": "9-5",
-                "Thursday": "9-5",
-                "Friday": "9-5"
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": null,
+                "Saturday": null,
+                "Sunday": null
+            }
+        },
+        {
+            "Name": "Turning Point Mission Center",
+            "Address": "1814 Shady Lane Drive Jackson, MS - 39204",
+            "Website": null,
+            "Phone": "601-372-1080",
+            "Hours": {
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": null,
+                "Saturday": null,
+                "Sunday": null
+            }
+        },
+        {
+            "Name": "Word Of Truth Kingdom Church - Touch One",
+            "Address": "4491 W Northside Drive Jackson, MS - 39209",
+            "Website": "https://www.instagram.com/wotkc/",
+            "Phone": "601-923-3325",
+            "Hours": {
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": null,
+                "Saturday": null,
+                "Sunday": "9:00am-5:00pm"
+            }
+        },
+        {
+            "Name": "St. Columb's Espiscopal Church - Iona House Food Pantry",
+            "Address": "315 Claiborne Ave Jackson, MS - 39209",
+            "Website": "https://www.stcolumbs.org/",
+            "Phone": "601-853-0205",
+            "Hours": {
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": "9:00am-12:00pm",
+                "Saturday": null,
+                "Sunday": null
+            }
+        },
+        {
+            "Name": "South Jackson Seventh Day Adventist",
+            "Address": "5125 A Robinson Rd Jackson, MS - 39204",
+            "Website": null,
+            "Phone": "601-373-7600",
+            "Hours": {
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": "9:00am-5:00pm",
+                "Saturday": null,
+                "Sunday": null
+            }
+        },
+        {
+            "Name": "Parkview Church of Christ",
+            "Address": "5200 Clinton Blvd Jackson, MS - 39209",
+            "Website": null,
+            "Phone": "601-922-9800",
+            "Hours": {
+                "Monday": "9:00am-5:00pm",
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": null,
+                "Saturday": null,
+                "Sunday": null
             }
         }
     ]
