@@ -9,12 +9,8 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [
-    daisyui,
-  ],
+  plugins: [daisyui],
   daisyui: {
-    themes: [
-      'emerald', 
-    ]
+    themes: ["emerald"]
   }
 }
