@@ -1,4 +1,5 @@
 import { log } from 'console';
+import { request } from 'http';
 import {resolve} from 'path'
 import { defineConfig } from 'vite'
 
@@ -13,10 +14,12 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(root, 'index.html'),
-                login: resolve(root, login, 'index.html'),
-
-
-            }
+                login: resolve(root, 'login', 'index.html'),
+                resources: resolve(root, 'resources', 'index.html'),
+                stats: resolve(root, 'stats', 'index.html'),
+                recievers : resolve(root, 'recievers', 'index.html'),
+                requests : resolve(root, 'requests', 'index.html')
+            },
         }
     }
 });
