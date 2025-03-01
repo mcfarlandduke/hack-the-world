@@ -1,83 +1,37 @@
 {
     "Locations": [
         {
-            "Name": "We Will Go Food Pantry",
-            "Address": "806 North Farish Street, Jackson, MS - 39202",
-            "Website": "https://www.wewillgo.org/",
-            "Phone": "601-398-2410",
-            "Hours": {
-                "Monday": null,
-                "Tuesday": "9:00am-11:00am",
+            "Name": "Denise Silverton",
+            "Address": "1100 W Capitol St Jackson, MS - 39203",
+            "Quantity": "1",
+            "Allergies": null,
+            "Bio": "Single Female",
+            "Pickup Times": {
+                "Monday": "5:00pm-9:00pm",
+                "Tuesday": "9:00am-9:00pm",
                 "Wednesday": null,
-                "Thursday": "9:00am-11:00am",
-                "Friday": null,
-                "Saturday": "10:00am-11:00am",
+                "Thursday": null,
+                "Friday": "5:00pm-9:00pm",
+                "Saturday": "10:00am-3:00pm",
                 "Sunday": null
             }
         },
         {
-            "Name": "First Hyde Park MB Church",
-            "Address": "2750 Coleman Ave, Jackson, MS - 39213",
-            "Website": "https://www.instagram.com/explore/locations/387072247/first-hyde-park-mb-church/",
-            "Phone": "601-362-5552",
-            "Hours": {
-                "Monday": null,
-                "Tuesday": null,
+            "Name": "Louis Thompson",
+            "Address": "1814 Shady Lane Drive Jackson, MS - 39204",
+            "Quantity": "5",
+            "Allergies": "Eggs, Lactose Intolerant",
+            "Bio": "Family of 5",
+            "Pickup Times": {
+                "Monday": "6:00pm-9:00pm",
+                "Tuesday": "4:00am-9:00pm",
                 "Wednesday": null,
-                "Thursday": null,
-                "Friday": null,
+                "Thursday": "8:00am-5:00pm",
+                "Friday": "5:00pm-9:00pm",
                 "Saturday": null,
                 "Sunday": null
             }
-        },
-        {
-            
-                "Name": "Planting Seeds Outreach Ministry",
-                "Address": "5360 Executive Pl, Jackson, MS - 39206",
-                "Website": "https://x.com/i/flow/login?redirect_after_login=%2Fplantingseedsms",
-                "Phone": "601-366-7484",
-                "Hours": {
-                    "Monday": null,
-                    "Tuesday": null,
-                    "Wednesday": null,
-                    "Thursday": null,
-                    "Friday": null,
-                    "Saturday": null,
-                    "Sunday": null
-                }
-            },
-            {
-            
-                "Name": "Salvation Army",
-                "Address": "110 Presto Lane, Jackson, MS - 39206",
-                "Website": "https://southernusa.salvationarmy.org/jackson-ms",
-                "Phone": "601-982-4881",
-                "Hours": {
-                    "Monday": null,
-                    "Tuesday": null,
-                    "Wednesday": null,
-                    "Thursday": null,
-                    "Friday": null,
-                    "Saturday": null,
-                    "Sunday": null
-                }
-            },
-            {
-            
-                "Name": "Southside Assembly of God",
-                "Address": "665 Raymond Rd, Jackson, MS - 392046",
-                "Website": null,
-                "Phone": "601-373-0529",
-                "Hours": {
-                    "Monday": null,
-                    "Tuesday": null,
-                    "Wednesday": null,
-                    "Thursday": null,
-                    "Friday": null,
-                    "Saturday": null,
-                    "Sunday": null
-                }
-            }
+        }
         
     ]
 }
