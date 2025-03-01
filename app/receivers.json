@@ -1,0 +1,52 @@
+{
+    "Receivers": [
+        {
+            "Name": "Jane Doe",
+            "Address": "6775 Siwell Road Jackson, MS - 39272",
+            "Quantity": "6",
+            "Alergies": "Peanut",
+            "Bio": "Mom, 5 kids",
+            "Pickup Times": {
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": null,
+                "Saturday": "8:30am-2:30pm",
+                "Sunday": null
+            }
+        },
+        {
+            "Name": "John Smith",
+            "Address": "1100 W Capitol St Jackson, MS - 39203",
+            "Quantity": "3",
+            "Alergies": "Gluten",
+            "Bio": "Dad, 2 kids",
+            "Pickup Times": {
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": "8:30am-2:30pm",
+                "Saturday": null,
+                "Sunday": null
+            }
+        },
+        {
+            "Name": "Jacob Hill",
+            "Address": "1814 Shady Lane Drive Jackson, MS - 39204",
+            "Quantity": "2",
+            "Alergies": null,
+            "Bio": "Young Couple",
+            "Pickup Times": {
+                "Monday": null,
+                "Tuesday": null,
+                "Wednesday": null,
+                "Thursday": null,
+                "Friday": null,
+                "Saturday": null,
+                "Sunday": "8:30am-2:30pm"
+            }
+        }
+    ]
+}
