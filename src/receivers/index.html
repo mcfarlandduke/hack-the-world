@@ -42,6 +42,7 @@
                     "Name": "Jane Doe",
                     "Address": "6775 Siwell Road Jackson, MS - 39272",
                     "Quantity": "6",
+                    "Needed Items": "XL Coat, Blanket",
                     "Alergies": "Peanut",
                     "Bio": "Mom, 5 kids",
                     "Pickup Times": {
@@ -58,6 +59,7 @@
                     "Name": "John Smith",
                     "Address": "1100 W Capitol St Jackson, MS - 39203",
                     "Quantity": "3",
+                    "Needed Items": "XL Coat, Blanket",
                     "Alergies": "Gluten",
                     "Bio": "Dad, 2 kids",
                     "Pickup Times": {
@@ -74,6 +76,7 @@
                     "Name": "Jacob Hill",
                     "Address": "1814 Shady Lane Drive Jackson, MS - 39204",
                     "Quantity": "2",
+                    "Needed Items": "XL Coat, S Coat",
                     "Alergies": null,
                     "Bio": "Young Couple",
                     "Pickup Times": {
@@ -90,6 +93,7 @@
                     "Name": "Denise Silverton",
                     "Address": "1100 W Capitol St Jackson, MS - 39203",
                     "Quantity": "1",
+                    "Needed Items": "1 Year Old Diapers, S Coat",
                     "Alergies": null,
                     "Bio": "Single Female",
                     "Pickup Times": {
@@ -106,6 +110,7 @@
                     "Name": "Louis Thompson",
                     "Address": "1814 Shady Lane Drive Jackson, MS - 39204",
                     "Quantity": "5",
+                    "Needed Items": "Toilet Paper, S Coat",
                     "Alergies": "Eggs, Lactose Intolerant",
                     "Bio": "Family of 5",
                     "Pickup Times": {
@@ -137,6 +142,9 @@
                 const quantity = document.createElement("p");
                 quantity.textContent = `Quantity: ${receiver.Quantity}`;
 
+                const neededItems = document.createElement("p");
+                neededItems.textContent = `Needed Items: ${receiver["Needed Items"]}`;
+
                 const allergies = document.createElement("p");
                 allergies.textContent = `Allergies: ${receiver.Alergies || "None"}`;
 
@@ -158,6 +166,7 @@
                 card.appendChild(name);
                 card.appendChild(address);
                 card.appendChild(quantity);
+                card.appendChild(neededItems);
                 card.appendChild(allergies);
                 card.appendChild(bio);
                 card.appendChild(pickupTimesTitle);
