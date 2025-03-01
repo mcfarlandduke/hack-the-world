@@ -1,3 +1,4 @@
+import { log } from 'console';
 import {resolve} from 'path'
 import { defineConfig } from 'vite'
 
@@ -11,7 +12,8 @@ export default defineConfig({
         emptyOutDir: true,
         rollupOptions: {
             input: {
-                main: resolve(root, 'index.html')
+                main: resolve(root, 'index.html'),
+                login: resolve(root, login, 'index.html'),
             }
         }
     }
