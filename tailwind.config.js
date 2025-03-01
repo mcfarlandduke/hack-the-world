@@ -26,7 +26,17 @@ export default {
       'luxury',
       'dracula',
       'emerald',
-      'corporate'
+      'corporate',
+      'dim',
+      'valentine',
+      'halloween',
+      'garden',
+      'forest',
+      'aqua',
+      'lofi',
+      'pastel',
+      'black',
+      'white',
     ]
   }
 }
