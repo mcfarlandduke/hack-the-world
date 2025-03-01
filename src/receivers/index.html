@@ -163,6 +163,11 @@
                     pickupTimesList.appendChild(timeDisplay);
                 });
 
+                const mapsLink = document.createElement("a");
+                mapsLink.href = `https://www.google.com/maps?q=${encodeURIComponent(receiver.Address)}`;
+                mapsLink.target = "_blank";
+                mapsLink.textContent = "View on Google Maps";
+
                 card.appendChild(name);
                 card.appendChild(address);
                 card.appendChild(quantity);
@@ -171,6 +176,7 @@
                 card.appendChild(bio);
                 card.appendChild(pickupTimesTitle);
                 card.appendChild(pickupTimesList);
+                card.appendChild(mapsLink);
 
                 receiversList.appendChild(card);
             });
