@@ -7,49 +7,30 @@ enum UserType {
     RECEIVER = 'receiver',
     GIVER = 'giver'
 }
+const submitBtn = document.getElementById('submitBtn') as HTMLButtonElement;
+submitBtn.addEventListener('click', (event) => {
+    event.preventDefault(); // Prevent default form submission
+    const username = (document.getElementById('username') as HTMLInputElement).value;
+    const password = (document.getElementById('password') as HTMLInputElement).value;
+    onLoginSubmit(username, password);
+});
 
-class LoginHandler {
-    private async verifyCredentials(credentials: LoginCredentials): Promise<UserType | null> {
-        // Replace this with your actual authentication logic
-        if (credentials.username === 'receiver' && credentials.password === 'customerpass') {
-            return UserType.RECEIVER;
-        } else if (credentials.username === 'giver' && credentials.password === 'adminpass') {
-            return UserType.GIVER;
-        }
-        return null;
-    }
-
-    private getFilePathByUserType(userType: UserType): string {
-        switch (userType) {
-            case UserType.RECEIVER:
-                return '/src/resources/index.html';
-            case UserType.GIVER:
-                return '/src/stats/index.html';
-            default:
-                return '/src/login/index.html'; // fallback to login page
-        }
-    }
-
-    public async handleLogin(credentials: LoginCredentials): Promise<string> {
-        const userType = await this.verifyCredentials(credentials);
-        
-        if (!userType) {
-            throw new Error('Invalid credentials');
-        }
-
-        return this.getFilePathByUserType(userType);
-    }
-}
-
-// Usage example
-const loginHandler = new LoginHandler();
-
-async function onLoginSubmit(username: string, password: string) {
+function onLoginSubmit(username: string, password: string) {
+    console.log('Login attempt:', username);  // Debug line
     try {
-        const filePath = await loginHandler.handleLogin({ username, password });
-        window.location.href = filePath;
+        if (username === 'JaneDoe@gmail.com' && password === 'password') {
+            console.log('Redirecting to resources...');  // Debug line
+            window.location.replace('../resources/index.html');
+        }
+        else if (username === 'Charity@gmail.com' && password === 'password') {
+            console.log('Redirecting to stats...');  // Debug line
+            window.location.replace('../stats/index.html');
+        }
+        else {
+            console.error('Login failed:', 'Invalid credentials');
+            alert('Invalid credentials');  // User feedback
+        }
     } catch (error) {
-        console.error('Login failed:', error);
-        // Handle error (show message to user, etc.)
+        console.error('Navigation error:', error);
     }
 }
