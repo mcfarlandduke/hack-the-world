@@ -1,0 +1,26 @@
+{
+    "Locations": [
+        {
+            "Name": "Church1",
+            "Address": "asdfjaksdjfasdkfj",
+            "Hours": {
+                "Monday": "9-5",
+                "Tuesday": "9-5",
+                "Wednesday": "9-5",
+                "Thursday": "9-5",
+                "Friday": "9-5"
+            }
+        },
+        {
+            "Name": "Church2",
+            "Address": "asdkjfaksdjfkajjkjkj",
+            "Hours": {
+                "Monday": "9-5",
+                "Tuesday": "9-5",
+                "Wednesday": "9-5",
+                "Thursday": "9-5",
+                "Friday": "9-5"
+            }
+        }
+    ]
+}
