@@ -1,5 +1,5 @@
-{
-    "Locations": [
+
+module.exports = [
         {
             "Name": "Hands and Feet Food Pantry - Crossroads of Life",
             "Address": "6775 Siwell Road Jackson, MS - 39272",
@@ -184,4 +184,4 @@
                 }
             }
     ]
-}
+
