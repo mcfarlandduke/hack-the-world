@@ -4,7 +4,7 @@ This is a software that connects the unorganized and often outdated information 
 
 It inspires each of us to serve more, and share what we have. 
 
-Here is the website in progress.
+Here is the website in progress. More to come. 
 https://hacktheworlddani.netlify.app/
 Mind you, we also created this over night in around 8 hours.
 
