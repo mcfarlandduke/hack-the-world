@@ -12,5 +12,3 @@ Test Logins for the Website are
 To give: Charity@gmail.com password: password
 To Receive: JaneDoe@gmail.com password: password
 
-Here is also our presentation for the Competetition we made this for. 
-https://docs.google.com/presentation/d/1LneM9875nwKpWBu73_lMLNnLIWfe8qWiChbA7JpNsyQ/edit?usp=sharing
